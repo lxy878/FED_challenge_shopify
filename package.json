@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lxy878.github.io/FED_challenge_shopify/",
   "name": "fed_challenge_shopify",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "web-vitals": "^2.1.0"
   }
 }
